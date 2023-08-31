@@ -16,7 +16,7 @@ document.querySelectorAll("button")[i].addEventListener("click",function(){
 addEventListener("keypress", function(event){
     makeSound(event.key);
     animateButton(event.key);
-})
+});
 function makeSound(key){
     switch(key){
         case "w" :  var audio1 = new Audio("./sounds/tom-1.mp3");
